@@ -1,0 +1,15 @@
+{
+  "name": "exr.deploy.shanyue",
+  "version": "1.0.0",
+  "description": "部署专项练习",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com_:qyingkou/exr.deploy.shanyue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
