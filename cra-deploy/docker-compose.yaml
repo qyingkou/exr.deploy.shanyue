@@ -1,0 +1,9 @@
+version: "3"
+services:
+  simple:
+    # container_name: cra # 默认是<项目名><服务名><序号>
+    build:
+      context: .
+      dockerfile: simple.Dockerfile
+    ports:
+      - 4000:80
