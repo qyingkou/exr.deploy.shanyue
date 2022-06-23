@@ -7,3 +7,5 @@ services:
       dockerfile: simple.Dockerfile
     ports:
       - 4000:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
