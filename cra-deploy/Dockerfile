@@ -14,5 +14,6 @@ RUN npm run build
 
 # 选择更小体积的基础镜像
 FROM nginx:alpine
-ADD nginx.conf /etc/nginx/conf.d/default.conf
+ADD nginx.index.conf /etc/nginx/nginx.conf
+ADD nginx.default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder code/build /usr/share/nginx/html
